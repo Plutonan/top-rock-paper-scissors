@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    color: white;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+.score-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.score-box {
+    border: 2px solid #5a62aa;
+    margin: 1rem;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 2rem;
+
+}
+
+button {
+    font-size: 1.5rem;
+    border: 1px solid;
+    background-color: #27bd83;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.announcment {
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
